@@ -1,0 +1,29 @@
+{
+  "name": "picorouter",
+  "version": "1.0.0",
+  "description": "Is a no frills zero dependancy router for nodes http server",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vorticalbox/picorouter.git"
+  },
+  "author": "vorticalbox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vorticalbox/picorouter/issues"
+  },
+  "homepage": "https://github.com/vorticalbox/picorouter#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.21.2",
+    "typescript": "^3.9.5"
+  }
+}
