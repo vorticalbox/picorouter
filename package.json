@@ -1,6 +1,6 @@
 {
   "name": "picorouter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Is a no frills zero dependancy router for nodes http server",
   "main": "./dist/index.js",
   "scripts": {
